@@ -3,18 +3,14 @@ A semester-long group project for a Master of Data Science course in Machine Lea
 
 ## Overview
 
-This repository contains resources and initial exploratory tools to assist in selecting and analyzing a dataset for the project. The goal of this phase is to explore multiple datasets and determine the most suitable one for further analysis and modeling.
+This repository contains jupyter notebooks and data files for a project aimed at predicting the hospital re-admittance of diabetes patients. The goal of each phase are as follows:
+- Intro Phase: Identify a suitable dataset with good documentation, 30K+ records, and a combination of 10+ continuous and categorical features.  
+- Phase One: Define the objective of the dataset, provide summary statistics, identify missing and duplicate data, identify outliers, and provide exploratory visualizations of the variables.  
 
 ## Structure
 
-- **`datasetProfiling.ipynb`**: A Jupyter notebook for exploring and profiling datasets.
-- **HTML Profiling Reports**:
-  - `airbnb.html`: Profiling report for the Airbnb dataset.
-  - `bank-additional-full.html`: Profiling report for the Bank Marketing dataset.
-  - `default.html`: Profiling report for the Credit Card Default dataset.
-  - `diabetes.html`: Profiling report for the Diabetes dataset.
-- **`requirements.txt`**: Lists the dependencies needed to run the Jupyter notebook and generate reports.
-- **`data/`**: Directory containing raw datasets for initial exploration (if applicable).
+- **`LabOne.ipynb`**: A Jupyter notebook for identifying project goals and summarizing the data.
+- **`data/`**: Directory containing the raw data.
 
 ## Setup Instructions
 
@@ -41,23 +37,13 @@ Create and activate a virtual environment to manage dependencies:
   ```
 
 ### 3. Install Dependencies
-Install the required Python packages listed in `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
+Install the required Python packages (numpy, pandas, matplotlib, sklearn).
 
 ### 4. Open the Jupyter Notebook
 Start Jupyter Notebook to explore datasets interactively:
 ```bash
-jupyter notebook datasetProfiling.ipynb
+jupyter notebook LabOne.ipynb
 ```
-
-### 5. View the HTML Reports
-Open any of the HTML profiling reports in your browser to view pre-generated summaries for the datasets:
-- `airbnb.html`
-- `bank-additional-full.html`
-- `default.html`
-- `diabetes.html`
 
 ---
 
@@ -77,7 +63,7 @@ Open any of the HTML profiling reports in your browser to view pre-generated sum
 3. **Commit Your Changes**:
    Stage and commit your changes with a descriptive message:
    ```bash
-   git add .
+   git add <file>
    git commit -m "Your descriptive commit message"
    ```
 
