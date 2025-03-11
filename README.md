@@ -5,8 +5,15 @@ A semester-long group project for a Master of Data Science course in Machine Lea
 This repository contains a Jupyter notebook and data files for our group project aimed at predicting the hospital re-admittance of diabetes patients.
 
 ## Structure
-- **`LabOne.ipynb`**: A Jupyter notebook for setting project objectives and summarizing the data.
-- **`data/`**: Directory containing the raw data.
+- **`LabOne_Diabetes_Submission.ipynb`**: A Jupyter notebook for setting project objectives and summarizing the data.
+- **`LabOne_Diabetes_Submission.html`**: Rendered html file for the primary EDA.
+- **`MiniLab_Diabetes_Submission.ipynb`**: A Jupyter notebook with classification models for predicting early hospital readmission.
+- **`MiniLab_Diabetes_Submission.html`**: Rendered html file for readmission classification modeling.
+- **`LabTwo_Classification_Submission.ipynb`**: A Jupyter notebook with classification models for predicting medication changes and regression models for length of hospitalization.
+- **`LabTwo_Classification_Submission.html`**: Rendered html file for the classification and regression modeling.
+- **`data/`**: Directory containing the raw and generated (PCA) data.
+- **`plots/`**: Directory containing plots generated from the notebooks.
+- **`archive_code/`**: Directory containing drafts of code from various team members.
 
 ## Collaboration Instructions
 To contribute to this project:
