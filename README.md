@@ -11,6 +11,8 @@ This repository contains a Jupyter notebook and data files for our group project
 - **`MiniLab_Diabetes_Submission.html`**: Rendered html file for readmission classification modeling.
 - **`LabTwo_Classification_Submission.ipynb`**: A Jupyter notebook with classification models for predicting medication changes and regression models for length of hospitalization.
 - **`LabTwo_Classification_Submission.html`**: Rendered html file for the classification and regression modeling.
+- **`LabThree_Clustering_Submission.ipynb`**: A Jupyter notebook with clustering models to capture meaningful patient groupings in the data.
+- **`LabThree_Clustering_Submission.html`**: Rendered html file for clustering modeling.
 - **`data/`**: Directory containing the raw and generated (PCA) data.
 - **`plots/`**: Directory containing plots generated from the notebooks.
 - **`archive_code/`**: Directory containing drafts of code from various team members.
